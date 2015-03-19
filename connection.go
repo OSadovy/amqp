@@ -22,7 +22,7 @@ const (
 	defaultConnectionTimeout = 30 * time.Second
 	defaultProduct           = "https://github.com/streadway/amqp"
 	defaultVersion           = "β"
-	defaultChannelMax        = (2 << 16) - 1
+	defaultChannelMax        = (1 << 16) - 1
 )
 
 // Config is used in DialConfig and Open to specify the desired tuning
